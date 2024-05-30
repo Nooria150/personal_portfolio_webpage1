@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 
 body {
   font-size: 1.5rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 :root {
@@ -23,7 +23,7 @@ body {
 }
 
 .wrap {
-  white-space:wrap;
+  white-space: wrap;
 }
 
 .inline {
@@ -58,7 +58,8 @@ body {
   color: var(--FONT-COLOR);
 }
 
-.nav_bar li:hover, .nav_bar li:focus {
+.nav_bar li:hover,
+.nav_bar li:focus {
   background-color: var(--HEADER-HOVER-BLUE);
 }
 
@@ -205,8 +206,8 @@ body {
   border-top: 4px solid var(--POPPING-RED);
 }
 
-@media(prefers-color-scheme: dark){
-  :root{
+@media (prefers-color-scheme: dark) {
+  :root {
     --HEADER-RED: rgb(233, 116, 116);
     --FONT-COLOR: whitesmoke;
     --BODY-GRAY: rgb(70, 70, 71);
