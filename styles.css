@@ -38,6 +38,7 @@ body {
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
+  margin-right: 50%;
 }
 
 .nav__bar ul {
@@ -135,7 +136,7 @@ body {
 
 .projects__p:hover::before {
   content: '<';
-  color: orange;
+  color: #b76f38;
   position: absolute;
   left: 20px;
 }
