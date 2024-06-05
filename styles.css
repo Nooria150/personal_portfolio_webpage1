@@ -89,8 +89,7 @@ body {
 }
 
 @keyframes cursor {
-  50%
- {
+  50% {
     border-color: transparent;
   }
 }
