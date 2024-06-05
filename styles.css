@@ -83,16 +83,17 @@ body {
   white-space: nowrap;
   overflow: hidden;
   animation: 
-  typing 2s steps(15),
-  cursor .4s step-end infinite alternate;
+
+      typing 2s steps(15),
+      cursor .4s step-end infinite alternate;
 }
 
 @keyframes cursor {
-  50% { border-color: transparent}
+  50% { border-color: transparent }
 }
 
 @keyframes typing {
-  from { width: 0 }
+  from { width: "0"}
 }
 
 .section__p {
@@ -243,12 +244,12 @@ body {
     padding-top: 560px;
     margin: 5px;
   }
-  
+
   .contact__p {
     font-weight: 40px;
   }
 }
 
 .text-h2 {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
