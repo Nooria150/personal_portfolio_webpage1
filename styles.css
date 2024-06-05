@@ -17,8 +17,8 @@ body {
   --HEADER-RED: rgb(189, 60, 60);
   --FONT-COLOR: whitesmoke;
   --BODY-GRAY: rgb(70, 70, 71);
-  --HEADER-HOVER-BLUE: rgb(59, 59, 116);
-  --PROJECT-PBGCOLOR: rgb(52, 53, 58);
+  --HEADER-HOVER-BLUE: rgb(189, 60, 60);
+  --PROJECT-PBGCOLOR: rgb(70, 70, 71);
   --POPPING-RED: brown;
 }
 
@@ -114,9 +114,10 @@ body {
 
 .projects__images {
   width: 100%;
-  height: 400px;
+  height: 350px;
   display: block;
   margin: 1px;
+  padding: 7px;
 }
 
 .projects__p {
@@ -215,5 +216,16 @@ body {
     --HEADER-HOVER-BLUE: rgb(30, 30, 44);
     --PROJECT-PBGCOLOR: rgb(52, 53, 58);
     --POPPING-RED: rgb(216, 224, 96);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact__h2 { 
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .contact__p {
+    font-weight: 80px;
   }
 }
