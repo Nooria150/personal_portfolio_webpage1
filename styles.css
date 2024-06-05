@@ -17,7 +17,7 @@ body {
   --HEADER-RED: rgb(189, 60, 60);
   --FONT-COLOR: whitesmoke;
   --BODY-GRAY: rgb(70, 70, 71);
-  --HEADER-HOVER-BLUE: rgb(189, 60, 60);
+  --HEADER-HOVER-BLUE: rgb(108, 108, 121);
   --PROJECT-PBGCOLOR: rgb(70, 70, 71);
   --POPPING-RED: brown;
 }
@@ -73,9 +73,26 @@ body {
   background-color: var(--BODY-GRAY);
 }
 
+.container { display: inline-block; }
+
 .section__h1 {
   font-size: 3em;
   color: var(--FONT-COLOR);
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+  typing 2s steps(15),
+  cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: transparent}
+}
+
+@keyframes typing {
+  from { width: 0 }
 }
 
 .section__p {
@@ -118,6 +135,7 @@ body {
   display: block;
   margin: 1px;
   padding: 7px;
+  border-radius: 20px;
 }
 
 .projects__p {
@@ -221,11 +239,16 @@ body {
 
 @media screen and (max-width: 600px) {
   .contact__h2 {
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 25px;
+    padding-top: 560px;
+    margin: 5px;
   }
   
   .contact__p {
-    font-weight: 80px;
+    font-weight: 40px;
   }
+}
+
+.text-h2 {
+  font-family:'Times New Roman', Times, serif;
 }
