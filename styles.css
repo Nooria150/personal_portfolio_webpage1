@@ -90,11 +90,11 @@ body {
 
 @keyframes cursor {
   50% { border-color: transparent }
- }
+}
 
 @keyframes typing {
   from { width: 0 }
- }
+}
 
 .section__p {
   font-style: italic;
