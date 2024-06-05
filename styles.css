@@ -82,18 +82,18 @@ body {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: 
+  animation:
 
-      typing 2s steps(15),
-      cursor .4s step-end infinite alternate;
+    typing 2s steps(15),
+    cursor .4s step-end infinite alternate;
 }
 
 @keyframes cursor {
-  50% { border-color: transparent }
+  50% { border-color: transparent };
 }
 
 @keyframes typing {
-  from { width: "0"}
+  from { width: 0 };
 }
 
 .section__p {
